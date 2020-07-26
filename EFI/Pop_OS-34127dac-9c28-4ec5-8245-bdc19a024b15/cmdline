@@ -1,0 +1,1 @@
+initrd=\EFI\Pop_OS-34127dac-9c28-4ec5-8245-bdc19a024b15\initrd.img root=UUID=34127dac-9c28-4ec5-8245-bdc19a024b15 ro quiet loglevel=0 systemd.show_status=false splash
