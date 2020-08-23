@@ -230,8 +230,48 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
-		<key>Theme</key>
-		<string>Catalina</string>
+		<key>Hide</key>
+		<array>
+			<string>preboot</string>
+			<string>Recovery</string>
+		</array>
+		<key>KbdPrevLang</key>
+		<true/>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
+		<key>Custom</key>
+		<dict>
+			<key>Entries</key>
+			<array>
+				<dict>
+					<key>Ignore</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Pop!_OS</string>
+					<key>Arguments</key>
+					<string>initrd=/EFI/Pop_OS-34127dac-9c28-4ec5-8245-bdc19a024b15/initrd.img root=UUID=ADE6693F-7F3B-4532-96BF-6AF3893BB581 rw add_efi_memmap</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Path</key>
+					<string>/EFI/systemd/systemd-bootx64.efi</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Scan</key>
+		<dict>
+			<key>Tool</key>
+			<true/>
+			<key>Entries</key>
+			<true/>
+			<key>Legacy</key>
+			<false/>
+			<key>Linux</key>
+			<true/>
+		</dict>
 		<key>Mouse</key>
 		<dict>
 			<key>Mirror</key>
@@ -245,20 +285,8 @@
 		</dict>
 		<key>ShowOptimus</key>
 		<true/>
-		<key>KbdPrevLang</key>
-		<true/>
-		<key>Hide</key>
-		<array>
-			<string>preboot</string>
-			<string>Recovery</string>
-		</array>
-		<key>Scan</key>
-		<dict>
-			<key>Tool</key>
-			<true/>
-			<key>Legacy</key>
-			<false/>
-		</dict>
+		<key>Theme</key>
+		<string>Catalina</string>
 	</dict>
 	<key>CPU</key>
 	<dict>
